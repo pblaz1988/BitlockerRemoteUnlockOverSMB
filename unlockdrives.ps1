@@ -25,7 +25,7 @@
 #    DEALINGS IN THE SOFTWARE.
 
 # Predispositions:
-# Network link between the servers exist without additional client
+# Network link between the servers exists without use of additional client
 # (on network level - vpn appliance, vpn router etc.)
 
 # location of your key
