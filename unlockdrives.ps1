@@ -1,5 +1,5 @@
 ﻿# Unlock drives locked with BitLocker with key stored on remote server.
-# Tested on MS Windows Server 2019
+# Tested on domain joined MS Windows Server 2019
 
 # TERMS OF USE
 # ------------------
