@@ -29,7 +29,7 @@
 # (on network level - vpn appliance, vpn router etc.)
 
 # location of your key
-$keyPlainText = Get-Content \\UNCPATH.SOMEDOMAIN.SI\_RemoteUnlockKeys\alpskl-dcthree.key
+$keyPlainText = Get-Content \\UNCPATH.SOMEDOMAIN.SI\_RemoteUnlockKeys\keyOfSomeServer.key
 $keySecureString = ConvertTo-SecureString $keyPlainText -AsPlainText -Force
 
 # drive letters to be unlocked (with same key)
