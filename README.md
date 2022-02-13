@@ -9,6 +9,10 @@ Provided Powershell script unlocks the drives if the branch office server can co
 4. Add action (Run Powershell.exe with parameter -ExecutionPolicy Bypass C:\_BIN\unlockdrives.ps1)
 5. As user select SYSTEM.
 
-On the server in the headquarters create network share and add read permissions to your computer (system account). Don't forget to remove read permissions for all users. Disable file caching, so there will be no option, that the key gets saved on the remote server.
+On the server in the headquarters create network share and add read permissions to your computer (system account).
+
+![HQ_Share](2022-02-11 22_19_26-10.216.3.26 - Remote Desktop Connection.png)
+
+Don't forget to remove read permissions for all users. Disable file caching, so there will be no option, that the key gets saved on the remote server.
 
 This will work only for domain joined devices.
