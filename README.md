@@ -3,7 +3,7 @@ Branch office servers that are not sufficiently physically protected should have
 
 Provided Powershell script unlocks the drives if the branch office server can connect to the SMB share of the server in the headquarters where the key is stored. At this point we assume that this connectivity does not exist if the server gets stolen.
 
-1. Place the contents of the script to C:\_BIN\unlockdrives.ps1 and modify it according to your needs / system.
+1. Place the contents of the script to C:\\_BIN\unlockdrives.ps1 and modify it according to your needs / system.
 2. Create new task in Task Scheduler. Select SYSTEM as user!
  ![BO_Task](https://raw.githubusercontent.com/pblaz1988/BitlockerRemoteUnlockOverSMB/main/img/2022-02-11%2022_16_27.png?raw=true)
 3. Set trigger to "On startup" and delay it for some time (your server won't be connected to the network the same moment the server boots)
